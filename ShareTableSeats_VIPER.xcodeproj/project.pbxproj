@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E53D8A91AF66EA600D71F57 /* WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E53D8A81AF66EA600D71F57 /* WebService.m */; };
+		9E53D8AC1AF66F6300D71F57 /* VMTableListNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E53D8AB1AF66F6300D71F57 /* VMTableListNetworkManager.m */; };
+		9E53D8B01AF6702C00D71F57 /* VMTableListNetworkDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E53D8AF1AF6702C00D71F57 /* VMTableListNetworkDataManager.m */; };
+		9E53D8B41AF6740F00D71F57 /* VMManagedTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E53D8B31AF6740F00D71F57 /* VMManagedTable.m */; };
+		9E546F521AA3186000DCB761 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E546F511AA3186000DCB761 /* main.m */; };
+		9E546F551AA3186000DCB761 /* VMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E546F541AA3186000DCB761 /* VMAppDelegate.m */; };
+		9E546F5E1AA3186000DCB761 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E546F5C1AA3186000DCB761 /* Main.storyboard */; };
+		9E546F601AA3186000DCB761 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E546F5F1AA3186000DCB761 /* Images.xcassets */; };
+		9E546F6F1AA3186000DCB761 /* ShareTableSeats_VIPERTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E546F6E1AA3186000DCB761 /* ShareTableSeats_VIPERTests.m */; };
+		9E546F7E1AA31C9200DCB761 /* VMAppDependencies.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E546F7D1AA31C9200DCB761 /* VMAppDependencies.m */; };
+		9E546F831AA31E5C00DCB761 /* VMCoreDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E546F821AA31E5C00DCB761 /* VMCoreDataStore.m */; };
+		9E546F871AA320D100DCB761 /* VMRootWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E546F861AA320D100DCB761 /* VMRootWireframe.m */; };
+		9E546F8A1AA32B7B00DCB761 /* VMTableItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E546F891AA32B7B00DCB761 /* VMTableItem.m */; };
+		9E546F961AA32E4900DCB761 /* VMTablesWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E546F951AA32E4900DCB761 /* VMTablesWireframe.m */; };
+		9E546FA81AA3347200DCB761 /* VMUpcomingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E546FA71AA3347200DCB761 /* VMUpcomingItem.m */; };
+		9E546FAB1AA3384700DCB761 /* VMTablesInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E546FAA1AA3384700DCB761 /* VMTablesInteractor.m */; };
+		9E546FB11AA3395100DCB761 /* VMTablesDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E546FB01AA3395100DCB761 /* VMTablesDataManager.m */; };
+		9E546FC21AA3409F00DCB761 /* NSArray+HOM.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E546FC11AA3409F00DCB761 /* NSArray+HOM.m */; };
+		9E546FC51AA3845500DCB761 /* VMTablesPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E546FC41AA3845500DCB761 /* VMTablesPresenter.m */; };
+		9E546FCB1AA38ED500DCB761 /* VMTablesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E546FCA1AA38ED500DCB761 /* VMTablesViewController.m */; };
+		9E546FCF1AA3934200DCB761 /* VMUpcomingDisplayDataCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E546FCE1AA3934200DCB761 /* VMUpcomingDisplayDataCollector.m */; };
+		9E546FD21AA3936300DCB761 /* VMUpcomingDisplayData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E546FD11AA3936300DCB761 /* VMUpcomingDisplayData.m */; };
+		9E546FD51AA3981500DCB761 /* VMUpcomingDisplaySection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E546FD41AA3981500DCB761 /* VMUpcomingDisplaySection.m */; };
+		9E546FD81AA398F800DCB761 /* VMUpcomingDisplayItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E546FD71AA398F800DCB761 /* VMUpcomingDisplayItem.m */; };
+		9E873C0E1AF5334100925E27 /* WebServiceCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E873C0D1AF5334100925E27 /* WebServiceCommand.m */; };
+		9E873C111AF5370100925E27 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E873C101AF5370100925E27 /* NSData+Base64.m */; };
+		9E8B6A8D1ED0A0EE0064B288 /* MesasAve_VIPER.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9E546F561AA3186000DCB761 /* MesasAve_VIPER.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E546F691AA3186000DCB761 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E546F441AA3186000DCB761 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E546F4B1AA3186000DCB761;
+			remoteInfo = MesasAve_VIPER;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E53D8A71AF66EA600D71F57 /* WebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebService.h; sourceTree = "<group>"; };
+		9E53D8A81AF66EA600D71F57 /* WebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebService.m; sourceTree = "<group>"; };
+		9E53D8AA1AF66F6300D71F57 /* VMTableListNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMTableListNetworkManager.h; sourceTree = "<group>"; };
+		9E53D8AB1AF66F6300D71F57 /* VMTableListNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMTableListNetworkManager.m; sourceTree = "<group>"; };
+		9E53D8AE1AF6702C00D71F57 /* VMTableListNetworkDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMTableListNetworkDataManager.h; sourceTree = "<group>"; };
+		9E53D8AF1AF6702C00D71F57 /* VMTableListNetworkDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMTableListNetworkDataManager.m; sourceTree = "<group>"; };
+		9E53D8B21AF6740F00D71F57 /* VMManagedTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMManagedTable.h; sourceTree = "<group>"; };
+		9E53D8B31AF6740F00D71F57 /* VMManagedTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMManagedTable.m; sourceTree = "<group>"; };
+		9E53D8B61AF679EC00D71F57 /* VMTableListNetworkDelegateInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMTableListNetworkDelegateInterface.h; sourceTree = "<group>"; };
+		9E546F4C1AA3186000DCB761 /* ShareTableSeats_VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareTableSeats_VIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E546F501AA3186000DCB761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E546F511AA3186000DCB761 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E546F531AA3186000DCB761 /* VMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMAppDelegate.h; sourceTree = "<group>"; };
+		9E546F541AA3186000DCB761 /* VMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMAppDelegate.m; sourceTree = "<group>"; };
+		9E546F571AA3186000DCB761 /* MesasAve_VIPER.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MesasAve_VIPER.xcdatamodel; sourceTree = "<group>"; };
+		9E546F5D1AA3186000DCB761 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E546F5F1AA3186000DCB761 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9E546F681AA3186000DCB761 /* ShareTableSeats_VIPERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareTableSeats_VIPERTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E546F6D1AA3186000DCB761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E546F6E1AA3186000DCB761 /* ShareTableSeats_VIPERTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareTableSeats_VIPERTests.m; sourceTree = "<group>"; };
+		9E546F7C1AA31C9200DCB761 /* VMAppDependencies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMAppDependencies.h; sourceTree = "<group>"; };
+		9E546F7D1AA31C9200DCB761 /* VMAppDependencies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMAppDependencies.m; sourceTree = "<group>"; };
+		9E546F811AA31E5C00DCB761 /* VMCoreDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMCoreDataStore.h; sourceTree = "<group>"; };
+		9E546F821AA31E5C00DCB761 /* VMCoreDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMCoreDataStore.m; sourceTree = "<group>"; };
+		9E546F851AA320D100DCB761 /* VMRootWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMRootWireframe.h; sourceTree = "<group>"; };
+		9E546F861AA320D100DCB761 /* VMRootWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMRootWireframe.m; sourceTree = "<group>"; };
+		9E546F881AA32B7B00DCB761 /* VMTableItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMTableItem.h; sourceTree = "<group>"; };
+		9E546F891AA32B7B00DCB761 /* VMTableItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMTableItem.m; sourceTree = "<group>"; };
+		9E546F941AA32E4900DCB761 /* VMTablesWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMTablesWireframe.h; sourceTree = "<group>"; };
+		9E546F951AA32E4900DCB761 /* VMTablesWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMTablesWireframe.m; sourceTree = "<group>"; };
+		9E546FA01AA331F500DCB761 /* VMTablesModuleInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMTablesModuleInterface.h; sourceTree = "<group>"; };
+		9E546FA31AA3326700DCB761 /* VMTablesViewInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMTablesViewInterface.h; sourceTree = "<group>"; };
+		9E546FA61AA3347200DCB761 /* VMUpcomingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMUpcomingItem.h; sourceTree = "<group>"; };
+		9E546FA71AA3347200DCB761 /* VMUpcomingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMUpcomingItem.m; sourceTree = "<group>"; };
+		9E546FA91AA3384700DCB761 /* VMTablesInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMTablesInteractor.h; sourceTree = "<group>"; };
+		9E546FAA1AA3384700DCB761 /* VMTablesInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMTablesInteractor.m; sourceTree = "<group>"; };
+		9E546FAC1AA3387100DCB761 /* VMTablesInteractorIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMTablesInteractorIO.h; sourceTree = "<group>"; };
+		9E546FAF1AA3395100DCB761 /* VMTablesDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMTablesDataManager.h; sourceTree = "<group>"; };
+		9E546FB01AA3395100DCB761 /* VMTablesDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMTablesDataManager.m; sourceTree = "<group>"; };
+		9E546FC01AA3409F00DCB761 /* NSArray+HOM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HOM.h"; sourceTree = "<group>"; };
+		9E546FC11AA3409F00DCB761 /* NSArray+HOM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HOM.m"; sourceTree = "<group>"; };
+		9E546FC31AA3845500DCB761 /* VMTablesPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMTablesPresenter.h; sourceTree = "<group>"; };
+		9E546FC41AA3845500DCB761 /* VMTablesPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMTablesPresenter.m; sourceTree = "<group>"; };
+		9E546FC91AA38ED500DCB761 /* VMTablesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMTablesViewController.h; sourceTree = "<group>"; };
+		9E546FCA1AA38ED500DCB761 /* VMTablesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMTablesViewController.m; sourceTree = "<group>"; };
+		9E546FCD1AA3934200DCB761 /* VMUpcomingDisplayDataCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMUpcomingDisplayDataCollector.h; sourceTree = "<group>"; };
+		9E546FCE1AA3934200DCB761 /* VMUpcomingDisplayDataCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMUpcomingDisplayDataCollector.m; sourceTree = "<group>"; };
+		9E546FD01AA3936300DCB761 /* VMUpcomingDisplayData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMUpcomingDisplayData.h; sourceTree = "<group>"; };
+		9E546FD11AA3936300DCB761 /* VMUpcomingDisplayData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMUpcomingDisplayData.m; sourceTree = "<group>"; };
+		9E546FD31AA3981500DCB761 /* VMUpcomingDisplaySection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMUpcomingDisplaySection.h; sourceTree = "<group>"; };
+		9E546FD41AA3981500DCB761 /* VMUpcomingDisplaySection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMUpcomingDisplaySection.m; sourceTree = "<group>"; };
+		9E546FD61AA398F800DCB761 /* VMUpcomingDisplayItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMUpcomingDisplayItem.h; sourceTree = "<group>"; };
+		9E546FD71AA398F800DCB761 /* VMUpcomingDisplayItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMUpcomingDisplayItem.m; sourceTree = "<group>"; };
+		9E873C0C1AF5334100925E27 /* WebServiceCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServiceCommand.h; sourceTree = "<group>"; };
+		9E873C0D1AF5334100925E27 /* WebServiceCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServiceCommand.m; sourceTree = "<group>"; };
+		9E873C0F1AF5370100925E27 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		9E873C101AF5370100925E27 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E546F491AA3186000DCB761 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E546F651AA3186000DCB761 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E53D8AD1AF6700600D71F57 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				9E53D8AE1AF6702C00D71F57 /* VMTableListNetworkDataManager.h */,
+				9E53D8AF1AF6702C00D71F57 /* VMTableListNetworkDataManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		9E53D8B11AF6703100D71F57 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9E53D8AA1AF66F6300D71F57 /* VMTableListNetworkManager.h */,
+				9E53D8AB1AF66F6300D71F57 /* VMTableListNetworkManager.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		9E53D8B51AF679AE00D71F57 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				9E53D8B61AF679EC00D71F57 /* VMTableListNetworkDelegateInterface.h */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+		9E546F431AA3186000DCB761 = {
+			isa = PBXGroup;
+			children = (
+				9E546F4E1AA3186000DCB761 /* ShareTableSeats_VIPER */,
+				9E546F6B1AA3186000DCB761 /* ShareTableSeats_VIPERTests */,
+				9E546F4D1AA3186000DCB761 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E546F4D1AA3186000DCB761 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E546F4C1AA3186000DCB761 /* ShareTableSeats_VIPER.app */,
+				9E546F681AA3186000DCB761 /* ShareTableSeats_VIPERTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E546F4E1AA3186000DCB761 /* ShareTableSeats_VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				9E546F781AA31C0700DCB761 /* Classes */,
+				9E546F791AA31C2100DCB761 /* Resources */,
+				9E546F4F1AA3186000DCB761 /* Supporting Files */,
+			);
+			path = ShareTableSeats_VIPER;
+			sourceTree = "<group>";
+		};
+		9E546F4F1AA3186000DCB761 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E546F501AA3186000DCB761 /* Info.plist */,
+				9E546F511AA3186000DCB761 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E546F6B1AA3186000DCB761 /* ShareTableSeats_VIPERTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E546F6E1AA3186000DCB761 /* ShareTableSeats_VIPERTests.m */,
+				9E546F6C1AA3186000DCB761 /* Supporting Files */,
+			);
+			path = ShareTableSeats_VIPERTests;
+			sourceTree = "<group>";
+		};
+		9E546F6C1AA3186000DCB761 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E546F6D1AA3186000DCB761 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E546F781AA31C0700DCB761 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9E546F7A1AA31C5800DCB761 /* Common */,
+				9E546F7B1AA31C5F00DCB761 /* Modules */,
+				9E546F531AA3186000DCB761 /* VMAppDelegate.h */,
+				9E546F541AA3186000DCB761 /* VMAppDelegate.m */,
+				9E546F7C1AA31C9200DCB761 /* VMAppDependencies.h */,
+				9E546F7D1AA31C9200DCB761 /* VMAppDependencies.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		9E546F791AA31C2100DCB761 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9E546F5C1AA3186000DCB761 /* Main.storyboard */,
+				9E546F5F1AA3186000DCB761 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9E546F7A1AA31C5800DCB761 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9E873C0B1AF5331600925E27 /* WebService */,
+				9E546FBF1AA3408900DCB761 /* Categories */,
+				9E546F7F1AA31DEA00DCB761 /* Model */,
+				9E546F801AA31E1000DCB761 /* Store */,
+				9E546F841AA320AE00DCB761 /* View */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		9E546F7B1AA31C5F00DCB761 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				9E546F8B1AA32D7300DCB761 /* Tables */,
+				9E873C081AF5135A00925E27 /* SignUp */,
+				9E873C071AF5134600925E27 /* Login */,
+				9E873C061AF5133500925E27 /* Profile */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		9E546F7F1AA31DEA00DCB761 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9E546F881AA32B7B00DCB761 /* VMTableItem.h */,
+				9E546F891AA32B7B00DCB761 /* VMTableItem.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9E546F801AA31E1000DCB761 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				9E546FB21AA33C2000DCB761 /* Entities */,
+				9E546F561AA3186000DCB761 /* MesasAve_VIPER.xcdatamodeld */,
+				9E546F811AA31E5C00DCB761 /* VMCoreDataStore.h */,
+				9E546F821AA31E5C00DCB761 /* VMCoreDataStore.m */,
+			);
+			name = Store;
+			sourceTree = "<group>";
+		};
+		9E546F841AA320AE00DCB761 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9E546F851AA320D100DCB761 /* VMRootWireframe.h */,
+				9E546F861AA320D100DCB761 /* VMRootWireframe.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9E546F8B1AA32D7300DCB761 /* Tables */ = {
+			isa = PBXGroup;
+			children = (
+				9E873C091AF5136F00925E27 /* TableList */,
+			);
+			name = Tables;
+			sourceTree = "<group>";
+		};
+		9E546F8C1AA32D8400DCB761 /* App Logic */ = {
+			isa = PBXGroup;
+			children = (
+				9E546F8F1AA32DD600DCB761 /* Interactor */,
+				9E546F901AA32DE300DCB761 /* Manager */,
+				9E873C0A1AF528E400925E27 /* Service */,
+			);
+			name = "App Logic";
+			sourceTree = "<group>";
+		};
+		9E546F8D1AA32D9900DCB761 /* Module Interface */ = {
+			isa = PBXGroup;
+			children = (
+				9E546FA01AA331F500DCB761 /* VMTablesModuleInterface.h */,
+			);
+			name = "Module Interface";
+			sourceTree = "<group>";
+		};
+		9E546F8E1AA32DAE00DCB761 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				9E546F931AA32E2B00DCB761 /* Presenter */,
+				9E546F921AA32E2400DCB761 /* View */,
+				9E546F911AA32E0F00DCB761 /* Wireframe */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		9E546F8F1AA32DD600DCB761 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				9E546FAC1AA3387100DCB761 /* VMTablesInteractorIO.h */,
+				9E546FA91AA3384700DCB761 /* VMTablesInteractor.h */,
+				9E546FAA1AA3384700DCB761 /* VMTablesInteractor.m */,
+				9E546FA61AA3347200DCB761 /* VMUpcomingItem.h */,
+				9E546FA71AA3347200DCB761 /* VMUpcomingItem.m */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		9E546F901AA32DE300DCB761 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				9E546FAF1AA3395100DCB761 /* VMTablesDataManager.h */,
+				9E546FB01AA3395100DCB761 /* VMTablesDataManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		9E546F911AA32E0F00DCB761 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				9E546F941AA32E4900DCB761 /* VMTablesWireframe.h */,
+				9E546F951AA32E4900DCB761 /* VMTablesWireframe.m */,
+			);
+			name = Wireframe;
+			sourceTree = "<group>";
+		};
+		9E546F921AA32E2400DCB761 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9E546FA31AA3326700DCB761 /* VMTablesViewInterface.h */,
+				9E546FC91AA38ED500DCB761 /* VMTablesViewController.h */,
+				9E546FCA1AA38ED500DCB761 /* VMTablesViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9E546F931AA32E2B00DCB761 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				9E546FC31AA3845500DCB761 /* VMTablesPresenter.h */,
+				9E546FC41AA3845500DCB761 /* VMTablesPresenter.m */,
+				9E546FCD1AA3934200DCB761 /* VMUpcomingDisplayDataCollector.h */,
+				9E546FCE1AA3934200DCB761 /* VMUpcomingDisplayDataCollector.m */,
+				9E546FD01AA3936300DCB761 /* VMUpcomingDisplayData.h */,
+				9E546FD11AA3936300DCB761 /* VMUpcomingDisplayData.m */,
+				9E546FD31AA3981500DCB761 /* VMUpcomingDisplaySection.h */,
+				9E546FD41AA3981500DCB761 /* VMUpcomingDisplaySection.m */,
+				9E546FD61AA398F800DCB761 /* VMUpcomingDisplayItem.h */,
+				9E546FD71AA398F800DCB761 /* VMUpcomingDisplayItem.m */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		9E546FB21AA33C2000DCB761 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				9E53D8B21AF6740F00D71F57 /* VMManagedTable.h */,
+				9E53D8B31AF6740F00D71F57 /* VMManagedTable.m */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		9E546FBF1AA3408900DCB761 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				9E873C0F1AF5370100925E27 /* NSData+Base64.h */,
+				9E873C101AF5370100925E27 /* NSData+Base64.m */,
+				9E546FC01AA3409F00DCB761 /* NSArray+HOM.h */,
+				9E546FC11AA3409F00DCB761 /* NSArray+HOM.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		9E873C061AF5133500925E27 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		9E873C071AF5134600925E27 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		9E873C081AF5135A00925E27 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SignUp;
+			sourceTree = "<group>";
+		};
+		9E873C091AF5136F00925E27 /* TableList */ = {
+			isa = PBXGroup;
+			children = (
+				9E546F8C1AA32D8400DCB761 /* App Logic */,
+				9E546F8D1AA32D9900DCB761 /* Module Interface */,
+				9E546F8E1AA32DAE00DCB761 /* User Interface */,
+			);
+			name = TableList;
+			sourceTree = "<group>";
+		};
+		9E873C0A1AF528E400925E27 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				9E53D8B51AF679AE00D71F57 /* Interface */,
+				9E53D8AD1AF6700600D71F57 /* Manager */,
+				9E53D8B11AF6703100D71F57 /* Network */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		9E873C0B1AF5331600925E27 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				9E53D8A71AF66EA600D71F57 /* WebService.h */,
+				9E53D8A81AF66EA600D71F57 /* WebService.m */,
+				9E873C0C1AF5334100925E27 /* WebServiceCommand.h */,
+				9E873C0D1AF5334100925E27 /* WebServiceCommand.m */,
+			);
+			name = WebService;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E546F4B1AA3186000DCB761 /* ShareTableSeats_VIPER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E546F721AA3186000DCB761 /* Build configuration list for PBXNativeTarget "ShareTableSeats_VIPER" */;
+			buildPhases = (
+				9E546F481AA3186000DCB761 /* Sources */,
+				9E546F491AA3186000DCB761 /* Frameworks */,
+				9E546F4A1AA3186000DCB761 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareTableSeats_VIPER;
+			productName = MesasAve_VIPER;
+			productReference = 9E546F4C1AA3186000DCB761 /* ShareTableSeats_VIPER.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E546F671AA3186000DCB761 /* ShareTableSeats_VIPERTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E546F751AA3186000DCB761 /* Build configuration list for PBXNativeTarget "ShareTableSeats_VIPERTests" */;
+			buildPhases = (
+				9E546F641AA3186000DCB761 /* Sources */,
+				9E546F651AA3186000DCB761 /* Frameworks */,
+				9E546F661AA3186000DCB761 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E546F6A1AA3186000DCB761 /* PBXTargetDependency */,
+			);
+			name = ShareTableSeats_VIPERTests;
+			productName = MesasAve_VIPERTests;
+			productReference = 9E546F681AA3186000DCB761 /* ShareTableSeats_VIPERTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E546F441AA3186000DCB761 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Guerrilla Dev SWAT";
+				TargetAttributes = {
+					9E546F4B1AA3186000DCB761 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					9E546F671AA3186000DCB761 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 9E546F4B1AA3186000DCB761;
+					};
+				};
+			};
+			buildConfigurationList = 9E546F471AA3186000DCB761 /* Build configuration list for PBXProject "ShareTableSeats_VIPER" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E546F431AA3186000DCB761;
+			productRefGroup = 9E546F4D1AA3186000DCB761 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E546F4B1AA3186000DCB761 /* ShareTableSeats_VIPER */,
+				9E546F671AA3186000DCB761 /* ShareTableSeats_VIPERTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E546F4A1AA3186000DCB761 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E546F5E1AA3186000DCB761 /* Main.storyboard in Resources */,
+				9E546F601AA3186000DCB761 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E546F661AA3186000DCB761 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E546F481AA3186000DCB761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E546FC51AA3845500DCB761 /* VMTablesPresenter.m in Sources */,
+				9E546F7E1AA31C9200DCB761 /* VMAppDependencies.m in Sources */,
+				9E53D8B41AF6740F00D71F57 /* VMManagedTable.m in Sources */,
+				9E546F831AA31E5C00DCB761 /* VMCoreDataStore.m in Sources */,
+				9E546FA81AA3347200DCB761 /* VMUpcomingItem.m in Sources */,
+				9E546F551AA3186000DCB761 /* VMAppDelegate.m in Sources */,
+				9E546FD51AA3981500DCB761 /* VMUpcomingDisplaySection.m in Sources */,
+				9E53D8B01AF6702C00D71F57 /* VMTableListNetworkDataManager.m in Sources */,
+				9E873C0E1AF5334100925E27 /* WebServiceCommand.m in Sources */,
+				9E546FCB1AA38ED500DCB761 /* VMTablesViewController.m in Sources */,
+				9E546F521AA3186000DCB761 /* main.m in Sources */,
+				9E8B6A8D1ED0A0EE0064B288 /* MesasAve_VIPER.xcdatamodeld in Sources */,
+				9E546FD21AA3936300DCB761 /* VMUpcomingDisplayData.m in Sources */,
+				9E53D8A91AF66EA600D71F57 /* WebService.m in Sources */,
+				9E53D8AC1AF66F6300D71F57 /* VMTableListNetworkManager.m in Sources */,
+				9E546F871AA320D100DCB761 /* VMRootWireframe.m in Sources */,
+				9E546F961AA32E4900DCB761 /* VMTablesWireframe.m in Sources */,
+				9E546F8A1AA32B7B00DCB761 /* VMTableItem.m in Sources */,
+				9E546FAB1AA3384700DCB761 /* VMTablesInteractor.m in Sources */,
+				9E546FD81AA398F800DCB761 /* VMUpcomingDisplayItem.m in Sources */,
+				9E873C111AF5370100925E27 /* NSData+Base64.m in Sources */,
+				9E546FB11AA3395100DCB761 /* VMTablesDataManager.m in Sources */,
+				9E546FCF1AA3934200DCB761 /* VMUpcomingDisplayDataCollector.m in Sources */,
+				9E546FC21AA3409F00DCB761 /* NSArray+HOM.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E546F641AA3186000DCB761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E546F6F1AA3186000DCB761 /* ShareTableSeats_VIPERTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E546F6A1AA3186000DCB761 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E546F4B1AA3186000DCB761 /* ShareTableSeats_VIPER */;
+			targetProxy = 9E546F691AA3186000DCB761 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9E546F5C1AA3186000DCB761 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E546F5D1AA3186000DCB761 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E546F701AA3186000DCB761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9E546F711AA3186000DCB761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E546F731AA3186000DCB761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShareTableSeats_VIPER/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guerrilla.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9E546F741AA3186000DCB761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShareTableSeats_VIPER/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guerrilla.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9E546F761AA3186000DCB761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShareTableSeats_VIPERTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareTableSeats_VIPER.app/ShareTableSeats_VIPER";
+			};
+			name = Debug;
+		};
+		9E546F771AA3186000DCB761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShareTableSeats_VIPERTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareTableSeats_VIPER.app/ShareTableSeats_VIPER";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E546F471AA3186000DCB761 /* Build configuration list for PBXProject "ShareTableSeats_VIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E546F701AA3186000DCB761 /* Debug */,
+				9E546F711AA3186000DCB761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E546F721AA3186000DCB761 /* Build configuration list for PBXNativeTarget "ShareTableSeats_VIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E546F731AA3186000DCB761 /* Debug */,
+				9E546F741AA3186000DCB761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E546F751AA3186000DCB761 /* Build configuration list for PBXNativeTarget "ShareTableSeats_VIPERTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E546F761AA3186000DCB761 /* Debug */,
+				9E546F771AA3186000DCB761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9E546F561AA3186000DCB761 /* MesasAve_VIPER.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9E546F571AA3186000DCB761 /* MesasAve_VIPER.xcdatamodel */,
+			);
+			currentVersion = 9E546F571AA3186000DCB761 /* MesasAve_VIPER.xcdatamodel */;
+			path = MesasAve_VIPER.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9E546F441AA3186000DCB761 /* Project object */;
+}
